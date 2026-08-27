@@ -3,7 +3,20 @@
 Compartilhe sua tela com áudio em 60fps pela Radmin VPN ou pela rede local,
 com atraso baixo o suficiente para assistir junto sem incomodar.
 
-## Baixar
+## Instalar sem nenhum aviso (recomendado)
+
+Abra o menu Iniciar, digite **PowerShell**, abra e cole esta linha inteira:
+
+```powershell
+curl.exe -L -o "$env:TEMP\vantage.zip" https://github.com/caduwinter/vantage-releases/releases/latest/download/Vantage-win-x64.zip; Expand-Archive -Force "$env:TEMP\vantage.zip" "$env:LOCALAPPDATA"; Start-Process "$env:LOCALAPPDATA\Vantage\Vantage.exe"
+```
+
+Ela baixa a versão mais nova, extrai e abre o app. Sem aviso nenhum: o
+alerta do Windows só existe para arquivos baixados pelo navegador, que
+ganham uma marca de origem; baixando por este comando a marca não existe.
+Para atualizar depois, feche o Vantage e rode a mesma linha de novo.
+
+## Ou baixar pelo navegador
 
 ### [Vantage-1.7.7-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.7.7/Vantage-1.7.7-win-x64.zip)
 
