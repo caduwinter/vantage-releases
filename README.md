@@ -18,9 +18,9 @@ Para atualizar depois, feche o Vantage e rode a mesma linha de novo.
 
 ## Ou baixar pelo navegador
 
-### [Vantage-1.9.1-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.9.1/Vantage-1.9.1-win-x64.zip)
+### [Vantage-1.9.2-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.9.2/Vantage-1.9.2-win-x64.zip)
 
-Versão 1.9.1 · Windows 64 bits · não precisa instalar
+Versão 1.9.2 · Windows 64 bits · não precisa instalar
 
 ## Se o navegador ou o Windows avisarem no download
 
