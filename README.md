@@ -9,6 +9,22 @@ com atraso baixo o suficiente para assistir junto sem incomodar.
 
 Versão 1.7.7 · Windows 64 bits · não precisa instalar
 
+## Se o navegador ou o Windows avisarem no download
+
+O aviso aparece para qualquer programa novo que não paga por uma assinatura
+digital, e não é uma detecção de vírus: cada zip é escaneado com o Windows
+Defender antes de ser publicado e sai limpo. O alerta desaparece sozinho
+conforme o arquivo ganha reputação.
+
+- No Chrome ou Edge: clique nos três pontos do download, depois em
+  **Manter** e **Manter mesmo assim**.
+- Se abrir o exe e aparecer "O Windows protegeu seu PC": clique em
+  **Mais informações** e depois **Executar assim mesmo**.
+
+Regra de ouro: só baixe o Vantage desta página. Quem quiser conferir por
+conta própria pode enviar o zip no [virustotal.com](https://virustotal.com)
+antes de abrir.
+
 ## Primeira vez
 
 1. Extraia a pasta do zip e abra `Vantage.exe`.
