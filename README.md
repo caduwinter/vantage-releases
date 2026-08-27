@@ -3,24 +3,31 @@
 Compartilhe sua tela com áudio em 60fps pela Radmin VPN ou pela rede local,
 com atraso baixo o suficiente para assistir junto sem incomodar.
 
-## Instalar sem nenhum aviso (recomendado)
+## Instalar (recomendado): atualiza sozinho para sempre
 
 Abra o menu Iniciar, digite **PowerShell**, abra e cole esta linha inteira:
 
 ```powershell
-curl.exe -L -o "$env:TEMP\vantage.zip" https://github.com/caduwinter/vantage-releases/releases/latest/download/Vantage-win-x64.zip; Expand-Archive -Force "$env:TEMP\vantage.zip" "$env:LOCALAPPDATA"; Start-Process "$env:LOCALAPPDATA\Vantage\Vantage.exe"
+curl.exe -L -o "$env:TEMP\VantageSetup.exe" https://github.com/caduwinter/vantage-releases/releases/latest/download/Vantage-Setup.exe; Start-Process "$env:TEMP\VantageSetup.exe"
 ```
 
-Ela baixa a versão mais nova, extrai e abre o app. Sem aviso nenhum: o
-alerta do Windows só existe para arquivos baixados pelo navegador, que
-ganham uma marca de origem; baixando por este comando a marca não existe.
-Para atualizar depois, feche o Vantage e rode a mesma linha de novo.
+Instala em segundos, sem perguntas e sem pedir administrador. Daqui em
+diante o app baixa as versões novas sozinho, em segundo plano, e mostra um
+aviso discreto de **Atualizar** quando estiver pronta: um clique e acabou.
+Nunca mais zip, nunca mais trocar pasta.
 
-## Ou baixar pelo navegador
+Sem aviso do Windows: o alerta só existe para arquivos baixados pelo
+navegador, que ganham uma marca de origem; por este comando a marca não
+existe. (Baixando o Setup pelo navegador o aviso pode aparecer; o passo a
+passo para ele está mais abaixo.)
 
-### [Vantage-1.9.2-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.9.2/Vantage-1.9.2-win-x64.zip)
+[Baixar o instalador pelo navegador](https://github.com/caduwinter/vantage-releases/releases/latest/download/Vantage-Setup.exe)
 
-Versão 1.9.2 · Windows 64 bits · não precisa instalar
+## Versão portátil (zip, sem atualização automática)
+
+### [Vantage-1.10.0-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.10.0/Vantage-1.10.0-win-x64.zip)
+
+Versão 1.10.0 · Windows 64 bits · extrai e roda, mas cada versão nova é manual
 
 ## Se o navegador ou o Windows avisarem no download
 
