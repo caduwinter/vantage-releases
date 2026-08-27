@@ -5,9 +5,9 @@ com atraso baixo o suficiente para assistir junto sem incomodar.
 
 ## Baixar
 
-### [Vantage-1.7.2-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.7.2/Vantage-1.7.2-win-x64.zip)
+### [Vantage-1.7.3-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v1.7.3/Vantage-1.7.3-win-x64.zip)
 
-Versão 1.7.2 · Windows 64 bits · não precisa instalar
+Versão 1.7.3 · Windows 64 bits · não precisa instalar
 
 ## Primeira vez
 
