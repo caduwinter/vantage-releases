@@ -25,9 +25,9 @@ passo para ele está mais abaixo.)
 
 ## Versão portátil (zip, sem atualização automática)
 
-### [Vantage-2.9.1-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v2.9.1/Vantage-2.9.1-win-x64.zip)
+### [Vantage-2.10.0-win-x64.zip](https://github.com/caduwinter/vantage-releases/releases/download/v2.10.0/Vantage-2.10.0-win-x64.zip)
 
-Versão 2.9.1 · Windows 64 bits · extrai e roda, mas cada versão nova é manual
+Versão 2.10.0 · Windows 64 bits · extrai e roda, mas cada versão nova é manual
 
 ## Se o navegador ou o Windows avisarem no download
 
